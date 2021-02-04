@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    height: 100vh;
+    margin: 0 auto;
+    overflow: hidden;
+    /* background: red; */
+
+}
+.nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* background: red; */
+    
+}
+.logo{
+    /* color: #55034a; */
+    font-size: 22px; /*24px*/
+    font-weight: 300;
+    color: #fff;
+}
+.links a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 300;
+    /* color: #55034a; */
+    color: #fff;
+    padding: 0px 10px;
+    border-bottom: 1px solid transparent;
+    transition: border .3s ease;
+}
+.links a:hover{
+    border-bottom-color:#fff;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://images.hdqwalls.com/wallpapers/shadow-of-the-colossus-2018-ps4-6w.jpg");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.hero{
+    color: #fff;
+    width: 100%;
+    height: calc(100vh - 70px);
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(8,1fr);
+}
+.hero-title{
+    grid-column: 5/8;
+    font-size: 56px;
+    font-weight: 300;
+}
+
+.hero-copy{
+    grid-column: 5/8;
+    align-self: end;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.hero-ps4{
+    grid-column: 5/6;
+    align-self: center;
+    font-size: 16px;
+    border: 1px solid #fff;
+    text-align: center;
+    margin-right: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: 700;
+}
+.hero-price{
+    grid-column: 5/8;
+    align-self: end;
+    font-size: 27px;
+}
+
+.hero-cta{
+    grid-column: 5/8;
+    align-self: end;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+
+
+
+
+
+
+.grid-cont{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(6,1fr);
+    text-align: center;
+    color: #55034a;
+}
+
+
+.bout-top{
+    grid-column: 4/10;
+    grid-row: 2/3;
+    font-weight: 300;
+    
+}
+.bout-middle{
+    grid-column: 4/10;
+    grid-row: 3/4;
+    font-weight: 300;
+    font-size: 22px;
+    
+    
+
+}
+.bout-bottom{
+    grid-column: 4/10;
+    grid-row: 4/5;
+    font-weight: 300;
+    font-size: 22px;
+    
+}
